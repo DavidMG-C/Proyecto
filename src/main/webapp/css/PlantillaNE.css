@@ -1,0 +1,63 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #b6dff7;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+}
+
+form {
+    background-color: rgb(252, 250, 250);
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+ul li label {
+    flex-basis: 150px;
+    padding-right: 10px;
+}
+
+ul li select {
+    flex: 1;
+    padding: 5px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+ul li input {
+    flex: 1;
+    padding: 5px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+ul li input[type="button"] {
+    background-color: rgb(255, 243, 80);
+    color: #000000;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    cursor: pointer;
+}

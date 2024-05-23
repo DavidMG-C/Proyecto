@@ -1,0 +1,10 @@
+<web-app>
+    <servlet>
+        <servlet-name>Gestiondocumentos</servlet-name>
+        <servlet-class>Gestiondocumentos</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Gestiondocumentos</servlet-name>
+        <url-pattern>/listarArchivos</url-pattern>
+    </servlet-mapping>
+</web-app>
