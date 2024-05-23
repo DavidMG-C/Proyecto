@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GRUPO MORENO</title>
+    <link rel="stylesheet" href="./css/logueo.css">
+        <script type="text/javascript">
+            function validadFormulario(){
+                let email=document.getElementById('email').value;
+                let pwd=document.getElementById('pwd').value;
+
+                let ok=true;
+                if(email ==""){
+                    ok = false;
+                    document.getElementById('email').style.background = "yellow";
+                }
+                if(pwd ==""){
+                    ok = false;
+                    document.getElementById('pwd').style.background = "yellow";
+                }
+                if (ok == true){
+                    document.getElementById("Login").submit();
+                }
+
+        }
+        </script>
+</head>
+<body>
+  
+    <div class="Contenedor_formulario">
+        <img src="./imagenes/Logo.png" alt="Logo portal"> 
+            <form name="Login" action="GestionUsuario" method="get" id="Login">
+                 <h1>INICIO DE SESIÓN</h1>
+                    <div class="Contenedor_Formulario-fila">
+                         <input type="email" id="email" name="email" placeholder="Email">
+                    </div>
+                    <div class="Contenedor_Formulario-fila">
+                          <input type="password" id="pwd" name="pwd" placeholder="Contraseña">
+                    </div>
+                    <div class="Contenedor_Formulario-fila">
+                         <a href="#" class="olvide-contrasena">¿Olvidaste tu contraseña?</a>
+                    </div>
+                    <div class="Contenedor_Formulario-fila">
+                        <input type="button" class="Boton_Inicio" onclick="validadFormulario()" value="Enviar">
+                    </div>  
+            </form>
+    </div>
+
+            <footer>
+                <div class="Contenedor_footer">
+                    <p>CREADO POR DAVID MORENO GARCÍA-CARO.</p>
+                </div>
+            </footer>  
+</body>
+</html>

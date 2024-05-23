@@ -1,0 +1,107 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    padding: 0;
+  }
+  header {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #b6dff7;
+    color: #000000; /* Color del texto del encabezado */
+    text-align: center;
+    padding: 20px;
+  }
+  
+  a {
+  	cursor: pointer;
+  	}
+  
+    nav {
+        background-color: rgb(255, 243, 80); /* Color de fondo de la barra de navegación */
+        padding: 10px;
+        text-align: center;
+        
+      }
+      
+      nav ul { /* TAMAÑO BARRA PRINCIPAL*/
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+      }
+      
+      nav ul li { /*TEXTO BARRA PRINCIPAL */
+        display: inline;
+        margin-right: 100px;
+        
+      }
+      
+      nav ul li a {
+        text-decoration: none;
+        color: #000; /* Color de los enlaces */
+      }
+      
+      nav ul li a:hover {
+        color: #4eaadf; /* Color del enlace al pasar el ratón */
+      }
+    .contenedor-perfil{
+      background-color: rgb(228, 217, 203);
+      height: 300px;
+      width: 1200px;
+      text-align: left;
+      padding: 17px 11px;
+      border: none;
+      margin-left: 60px;
+      
+    }
+    
+    .info-empleado {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-collapse: collapse; /* Elimina los espacios entre las celdas de la tabla */
+    background-color: transparent; /* Hace el fondo transparente */
+    border: none;
+    padding: 10px;
+    float: right;
+    margin-left: 200px; /* Añade un espacio entre la tabla y el contenedor */
+    margin-top: -60px; /* Sube la tabla 10px hacia arriba */
+    
+}
+  /* Estilo para los encabezados de la tabla */
+ .info-empleado th {
+ background-color: transparent; /* Fondo gris claro */
+ padding: 10px; /* Añade espacio alrededor del texto */
+ border: none; /* Elimina los bordes de los encabezados */
+ font-size: 22px; /* Tamaño de fuente más grande */
+ 
+ }
+         /* Estilo para los datos de la tabla */
+ .info-empleado td {
+ border: none; /* Elimina los bordes de las celdas de datos */
+ padding: 10px; /* Añade espacio alrededor del texto */
+ font-size: 20px; /* Tamaño de fuente más grande */
+}
+
+
+.imagen-y-tabla {
+    display: flex;
+    align-items: center; /* Centra verticalmente los elementos */
+}
+
+.imagen-y-tabla img {
+    margin-right: 50px; /* Espacio entre la imagen y la tabla */
+    
+}
+
+
+    .contenedor-perfil h3{
+      margin-left: 60px;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      
+    }
+
+    .contenedor-perfil img{
+      width: 100%; /* Hace que la imagen ocupe el 100% del ancho del contenedor */
+      max-width: 200px; /* Establece el ancho máximo de la imagen */
+      display: block; /* Hace que la imagen sea un elemento de bloque */
+      margin-left: 60px; /* Alinea la imagen a la izquierda */
+      margin-top: 10px;
+
+    }

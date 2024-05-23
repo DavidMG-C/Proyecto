@@ -1,0 +1,63 @@
+*body{ 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(70, 69, 69);
+    
+}
+
+.Contenedor_formulario{
+    background-color: #b6dff7;
+    color: #0000008e; /* Color del texto del encabezado */
+    text-align: center;
+    padding: 20px;
+    width: 97%; /* Ancho del cuadrado */
+    height: 400px; /* Alto del cuadrado */
+    display:flex;
+    justify-content:left;
+    align-items: center;
+   
+
+}
+
+.Contenedor_formulario form{
+    
+    text-align: center;
+    box-shadow: 0px 0px 20px 0px rgb(0, 0, 0);
+    background-color: #f7f7f7;
+    width: 700px; /* Ancho del cuadrado */
+    height: 260px; /* Alto del cuadrado */
+    
+}
+.Contenedor_Formulario-fila{
+    margin-bottom: 15px;
+
+}
+
+.Contenedor_formulario input{
+    padding: 17px 11px;
+    border: none;
+    border-radius: 20px;
+    margin-bottom: none;
+    background-color: #d5d6d6;
+    padding: 09px 25px; /* Espaciado interno */
+    text-align: center; /* Alineación del texto */
+    
+    font-size: 15px; /* Tamaño de la fuente */
+    
+   
+}
+
+
+.Contenedor_footer{
+    
+    background-color: #b6dff7;
+    text-align: center;
+    position:fixed; /*Positio junto a botton hacen que el contendor se situe en la parte inferior del html*/
+    bottom: 0;
+    width: 99%;
+    height: 70px; /* Alto del cuadrado */
+    
+}
